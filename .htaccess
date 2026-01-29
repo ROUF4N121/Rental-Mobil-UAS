@@ -1,0 +1,6 @@
+Options -Indexes
+RewriteEngine On
+
+# Redirect http ke https (opsional jika di localhost abaikan)
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
